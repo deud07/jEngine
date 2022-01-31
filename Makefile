@@ -1,2 +1,2 @@
 all:
-	g++ -I/include/glad -I/include/GLFW -I/include/KHR -Wall -g src/main.cpp -l/lib/glfw3.dll -o build/main
+	g++ -Iinclude/glad -Iinclude/GLFW -Iinclude/KHR -Wall -g src/main.cpp src/glad.c -L. -lglfw3 -lopengl32 -lgdi32  -o build/main

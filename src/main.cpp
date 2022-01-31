@@ -24,6 +24,8 @@ int main(void)
 
     while (!glfwWindowShouldClose(window))
     {
+        
+
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
